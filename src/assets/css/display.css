@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .custom-table {
+    background-color: #f4d6d7;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .custom-table img {
+    width: 50px;
+    height: 50px;
+  }
+  
